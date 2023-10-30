@@ -14,7 +14,9 @@ setInterval(() => {
 setInterval(() => {
     window.moveBy(RB(-10,10),RB(-10,10));
 },1);
-onfocus = () => {
-    dupe();
-    open('https://classroom.google.com/');
-}
+setTimeout(() => {
+    onfocus = () => {
+        dupe();
+        open('https://classroom.google.com/');
+    }
+}, 1000);
