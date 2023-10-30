@@ -19,4 +19,4 @@ setTimeout(() => {
         dupe();
         open('https://classroom.google.com/');
     }
-}, 1000);
+}, 5000);
